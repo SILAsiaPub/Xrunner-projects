@@ -1,0 +1,18 @@
+# Create Scrolling Text that is timed
+
+This project takes a phrases file, a timing file and an image file and creates an AVS video file.
+
+## Requirements
+
+- Scripture/Reading App Builder (SAB/RAB) with Aeneas installed
+- AVI Synth
+- WinFF or ffmpeg.
+
+## Process
+
+- With SAB and Aeneas create a timing file
+
+
+## Shortcomings
+
+AVI Synth does not appear to be able to handle UTF-8 encoded text.

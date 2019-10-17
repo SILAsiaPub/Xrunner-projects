@@ -1,0 +1,18 @@
+[variables]
+title=Demo Scroll Text
+timing_file-list=%projectpath%\source\01-MAT-01-timing.txt
+text_file-list=%projectpath%\source\01-MAT-01-aeneas.txt
+mp3=D:\All-SIL-Publishing\_xrunner_projects\App_Builder\AviSynth\TestScrollCreator\source\B01___01_Matthew_____AGNWPSN2DA.mp3
+audio-len=7000
+bgimage=%projectpath%\source\darkblue-HD.png
+fps=24
+font-size=36
+
+#font-name=Century Gothic
+font-name=Andika Regular
+onscreen=12
+pre-sec=4
+[a]
+button=Create AVS file
+t=:xslt phrase-timing2avs.xslt blank.xml 
+t=:outputfile "%projectpath%\output\video-andika.avs" start
